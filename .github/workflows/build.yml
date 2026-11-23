@@ -1,0 +1,22 @@
+name: Build Overcast Mini APK
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - name: Build minimal APK directly with Android SDK
+        run: bash build_min_apk.sh
+      - name: Upload signed APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: overcast-mini-widget-apk
+          path: build_min/overcast-mini-widget.apk
