@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Overcast Mini</string>
+    <string name="widget_compact_label">Overcast · Compact</string>
+    <string name="widget_forecast_label">Overcast · Forecast Pill</string>
+</resources>

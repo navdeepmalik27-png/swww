@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Overcast Material 3 Expressive Dark Tonal Palette (API 26-30 fallback) -->
+    <color name="oc_surface">#121921</color>
+    <color name="oc_surface_container">#1C2632</color>
+    <color name="oc_pill_bg">#243447</color>
+    <color name="oc_rain_pill_bg">#9ECAFF</color>
+    <color name="oc_on_surface">#E6EEF7</color>
+    <color name="oc_on_surface_variant">#9FB0C4</color>
+    <color name="oc_on_pill">#D1E4FF</color>
+    <color name="oc_on_rain_pill">#003258</color>
+    <color name="oc_accent">#9ECAFF</color>
+    <color name="oc_sun">#FBBF24</color>
+</resources>

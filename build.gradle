@@ -1,0 +1,41 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.overcast.mini'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.overcast.mini'
+        minSdk 26
+        targetSdk 35
+        versionCode 1
+        versionName '1.0'
+        resourceConfigurations += ['en']
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debug
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+
+    packaging {
+        resources {
+            excludes += ['META-INF/**', 'DebugProbesKt.bin', 'kotlin/**']
+        }
+    }
+}
+
+dependencies {
+    // Intentionally EMPTY: zero external libraries -> ~20-30 KB APK!
+}

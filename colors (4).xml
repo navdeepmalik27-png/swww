@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Native Android 12+ Material You / Material 3 Expressive Dynamic Tokens (0 KB library cost) -->
+    <color name="oc_surface">@android:color/system_neutral1_50</color>
+    <color name="oc_surface_container">@android:color/system_neutral2_100</color>
+    <color name="oc_pill_bg">@android:color/system_accent1_100</color>
+    <color name="oc_rain_pill_bg">@android:color/system_accent1_600</color>
+    <color name="oc_on_surface">@android:color/system_neutral1_900</color>
+    <color name="oc_on_surface_variant">@android:color/system_neutral2_700</color>
+    <color name="oc_on_pill">@android:color/system_accent1_900</color>
+    <color name="oc_on_rain_pill">@android:color/system_neutral1_0</color>
+    <color name="oc_accent">@android:color/system_accent1_600</color>
+    <color name="oc_sun">#F59E0B</color>
+</resources>
